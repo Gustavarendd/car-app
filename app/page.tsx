@@ -43,7 +43,7 @@ export default async function Home({ searchParams }: any) {
             <div className="home__cars-wrapper">
               {allCars?.map(car => (
                 <CarCard
-                  key={car.model}
+                  key={`${car.model}${Math.random()}`}
                   car={car}
                 />
               ))}

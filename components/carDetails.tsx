@@ -80,16 +80,16 @@ const CarDetails = ({ isOpen, car, closeModal }: CarDetailsProps) => {
                           alt="Car"
                           fill
                           priority
-                          className="object-contain"
+                          className="object-contain mt-2"
                         />
                       </div>
-                      <div className="flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg">
+                      <div className="flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg pt-10">
                         <Image
                           src={generateCarImageUrl(car, '33')}
                           alt="Car"
                           fill
                           priority
-                          className="object-contain"
+                          className="object-contain mt-5"
                         />
                       </div>
                       <div className="flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg">
@@ -98,7 +98,7 @@ const CarDetails = ({ isOpen, car, closeModal }: CarDetailsProps) => {
                           alt="Car"
                           fill
                           priority
-                          className="object-contain"
+                          className="object-contain mt-2"
                         />
                       </div>
                     </div>
